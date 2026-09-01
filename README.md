@@ -3,6 +3,7 @@
 태양계의 구성과 여덟 행성의 특징을 배우는 4쪽 페이지형 학습만화입니다.
 
 - 공개 학습 페이지: https://wbmaker2.github.io/grade5-solar-system-webtoon/
+- 배포 증거: 첫 커밋 `b5b2c59`, 성공한 [Pages workflow run 33487293496](https://github.com/WBmaker2/grade5-solar-system-webtoon/actions/runs/33487293496)
 - 대상: 초등학교 5학년 과학
 - 구성: A4 세로 4쪽, 총 22컷
 - 제공: 최종 PNG, 연락시트, 교사용 안내서, 학생 활동지, 사실 검증서, 대체 텍스트, 검수 보고서, 전체 ZIP

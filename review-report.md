@@ -2,7 +2,7 @@
 
 - 검수 대상: `storyboard.md`, 학습 브리프, 사실 검증, 교사용 안내서, 학생 활동지, 최종 수업 자료 ZIP
 - 검수일: 2026-09-01
-- 최종 상태: 교사 최종 승인 완료 · 수업 자료 배포본 QA 완료
+- 최종 상태: 교사 최종 승인 완료 · GitHub Pages 공개 및 수업 자료 배포본 QA 완료
 
 ## 확인 체크리스트
 
@@ -48,4 +48,13 @@
 - 브라우저 광선 QA: 입사광은 관찰자 뒤쪽에서 행성으로, 반사광은 행성에서 관찰자 눈 방향으로 표시
 - 자동 테스트: Node `16/16`, Python `24/24` 통과
 
-원화와 최종 한글 합성 PNG 4장, `contact-sheet.png`는 브라우저 합성·스크린샷 방식으로 생성되었고, 보조 자료와 전체 묶음 ZIP까지 동기화하여 배포본 QA를 완료했다. 외부 배포는 범위에 포함하지 않으며, 음성·TTS·VoiceOver 산출물도 포함하지 않는다.
+## GitHub Pages 배포 증거 (2026-09-01)
+
+- 저장소: [WBmaker2/grade5-solar-system-webtoon](https://github.com/WBmaker2/grade5-solar-system-webtoon)
+- 첫 커밋: `b5b2c59`
+- 성공한 Pages workflow: [run 33487293496](https://github.com/WBmaker2/grade5-solar-system-webtoon/actions/runs/33487293496)
+- 공개 Pages: [https://wbmaker2.github.io/grade5-solar-system-webtoon/](https://wbmaker2.github.io/grade5-solar-system-webtoon/)
+- 공개 learner path QA: desktop `innerWidth 1280 / scrollWidth 1265`, mobile `innerWidth 390 / scrollWidth 375`, 4 pages·22 panels, 9 images loaded, 12 downloads, cut17 image+rayDiagram, console errors/warnings 0
+- 공개 asset 응답: `panel-17-corrected.png` HTTP 200·`image/png`, `grade5-solar-system-classroom-pack.zip` HTTP 200·`application/x-zip-compressed`
+
+원화와 최종 한글 합성 PNG 4장, `contact-sheet.png`는 브라우저 합성·스크린샷 방식으로 생성되었고, 보조 자료와 전체 묶음 ZIP까지 동기화하여 배포본 QA를 완료했다. GitHub Pages 외부 배포와 공개 learner path 검증도 완료되었으며, 음성·TTS·VoiceOver 산출물은 포함하지 않는다.
